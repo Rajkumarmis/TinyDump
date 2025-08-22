@@ -63,7 +63,7 @@ fn main() -> Result<()> {
             println!("{:-<120}", "");
             
             for so in so_files {
-                format!("{}KB", size_kb)
+                let size_str = format!("{}KB", so.size / 1024);
                 
                 println!("{:<50} {:<18x} {:<18x} {:<10} {:<20}", 
                     so.name, so.start, so.end, size_str, so.permissions);

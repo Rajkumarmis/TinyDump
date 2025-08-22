@@ -42,3 +42,4 @@ MIT License
 
 ## Thanks
 https://github.com/F8LEFT/SoFixer
+https://github.com/SeeFlowerX/frida_dump
